@@ -1,0 +1,15 @@
+{
+    "name": "vue.dev.proxy",
+    "version": "1.1.1",
+    "private": true,
+    "description": "Development Proxy for web development using Vue.js and VS.NET with ASP.NET Core Apps",
+    "author": "dru <dru@druware.com>", 
+    "scripts": {
+        "update-configuration" : "cd ./scripts; node update-configuration.js",
+        "docker-build" : "docker build -t vue.dev.proxy .",
+        "docker-run": "docker run --rm --name vue.dev.proxy -d -p 80:80 vue.dev.proxy",
+        "docker-stop": "docker stop vue.dev.proxy"
+    },
+    "dependencies": { 
+    }
+}
