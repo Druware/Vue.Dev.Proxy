@@ -49,6 +49,6 @@ function buildDefaultConfigurationFile(address) {
     });
 }
 
-var address = getAddresForInterface('en0');
+var address = getAddresForInterface('en2');
 console.log(address);
 buildDefaultConfigurationFile(address);
